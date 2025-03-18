@@ -21,8 +21,8 @@ html {
 }
 
 header {
-    /* background-color: #fff;
-    color: #000; */
+    background-color: #3C8DBC;
+    /* color: white; */
     color: #b1b1b1;
 }
 
@@ -49,11 +49,12 @@ header>.collapsible-header {
     border-radius: 5px;
     padding: 5px 10px;
     transition: background-color 0.5s, color 0.5s;
+    color: white;
 }
 
 
 .header-links:hover {
-    color: #000;
+    color: #080808;
     /* background-color: var(--header-link-hover); */
 }
 
