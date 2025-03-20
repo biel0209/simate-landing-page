@@ -28,10 +28,10 @@
 
 <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-gradient-to-r tw-from-[#3C8DBC] tw-to-[#fdfdfd] tw-text-black">
 
-    <header
+    <header style="background-color: #080808;"
         class="tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] lg:tw-justify-around">
-        <a class="tw-h-[50px] tw-w-[50px] tw-p-[4px]" href="">
-            <img src="./assets/logo/logo.png" alt="logo" class="tw-object tw-h-full tw-w-full" />
+        <a class="tw-w-[200px]" href="" style="display: flex; align-items: center;">
+            <img src="./assets/logo/logo_simate4.png" alt="logo" />
         </a>
         <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
             <div
@@ -56,28 +56,22 @@
             onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
     </header>
 
-    <section
-        class="hero-section tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-md:tw-mt-[50px]"
+    <section style="padding-bottom: 80px;"
+        class="hero-section tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden"
         id="hero-section">
         <div
-            class="tw-flex tw-h-full tw-min-h-[100vh] tw-w-full tw-flex-col tw-place-content-center tw-gap-6 tw-p-[5%] max-xl:tw-place-items-center max-lg:tw-p-4">
-            <div class="tw-flex tw-flex-col tw-place-content-center tw-items-center">
-                <div
-                style="display: flex; flex-direction: column; padding-top: 60px;"    
-                class="reveal-up tw-text-center tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug">
-                    <span class="tw-tracking-tighter">
-                        <span
-                            class="tw-bg-gradient-to-r tw-from-purple-400 tw-to-blue-500 tw-text-transparent tw-bg-clip-text">SI</span>
-                        <span style="color: #3C8DBC;">MAT</span>
-                        <span
-                            class="tw-bg-gradient-to-r tw-from-purple-400 tw-to-blue-500 tw-text-transparent tw-bg-clip-text">e</span>
-                    </span>
-                    <span class="tw-text-xl tw-block tw-mt-2 tw-text-gray-500">Simulador de Matrícula Eletrônico</span>
+            class="tw-flex tw-h-full tw-w-full tw-flex-col tw-place-content-center tw-gap-6 tw-p-[0%] max-xl:tw-place-items-center max-lg:tw-p-4">
+            <div style="background-color: #080808; width: 100vw; padding-bottom: 20px;"
+                class="tw-flex tw-flex-col tw-place-content-center tw-items-center lg:rounded-2xl">
+
+                <div style="display: flex; flex-direction: column; padding-top: 100px;"
+                    class="reveal-up tw-text-center tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug">
+                    <img width="450" height="auto" src="./assets/logo/logo_simate6.png" alt="logo" />
                 </div>
 
 
-                <div
-                    class="reveal-sup tw-mt-10 tw-max-w-[450px] tw-p-2 tw-text-center tw-text-gray-500 max-lg:tw-max-w-full">
+                <div style="color: white;"
+                    class="reveal-sup tw-mt-10 tw-max-w-[450px] tw-p-2 tw-text-center max-lg:tw-max-w-full">
                     Sua matrícula sem stress.
                 </div>
 
@@ -171,7 +165,7 @@
         </div>
     </section>
 
-    <section id="diferenciais"
+    <section id="diferenciais" style="padding-bottom: 80px;"
         class="tw-relative tw-flex tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6">
         <div class="tw-mt-8 tw-flex tw-flex-col tw-place-items-center tw-gap-5">
             <div class="reveal-up" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
@@ -408,8 +402,7 @@
         </div>
     </section>
 
-    <section id="pitch"
-        class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-20">
+    <section id="pitch" class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-20">
         <div class="reveal-up" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
             <svg width="50px" height="50px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -426,7 +419,8 @@
             </h2>
         </div>
 
-        <div class="reveal-up tw-mt-8 tw-w-full tw-flex tw-justify-center tw-place-content-center tw-place-items-center">
+        <div
+            class="reveal-up tw-mt-8 tw-w-full tw-flex tw-justify-center tw-place-content-center tw-place-items-center">
             <iframe width="840" height="472.5" src="https://www.youtube.com/embed/blGWa3c3qRw?si=DGhUSHjYTK1dksA2"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -658,7 +652,7 @@
             </div>
 
             <p class="tw-flex tw-items-center tw-gap-2">
-                simate@dcomp.ufs.br
+                admindep@dcomp.ufs.br
             </p>
         </div>
 
